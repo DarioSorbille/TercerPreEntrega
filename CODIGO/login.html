@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HP Slots - Log In</title>
+    <link rel="icon" href="../IMAGENES/logo.png">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> <!--BootStrap-->
+</head>
+<body class="body"> 
+ <header id="header"><!--Menu-->
+    <p>Worldwid Shipping with 80$ orders</p>  <!--Banner Superior-->       
+    <nav class="navbar navbar-expand-md navbar-light"> <!--Barra Navegacion-->
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="./index.html"><h1>HP Slots</h1></a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./productos.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./login.html">Log In</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./abaoutUs.html">About Us</a>
+            </li>
+          </ul>
+          <a href="./index.html"><img src="../IMAGENES/icons/house.svg" alt="home" class="iconLink" ></a>
+        <a href="https://www.google.com.ar/" target="_blank"><img src="../IMAGENES/icons/search.svg" alt="busqueda" class="iconLink" ></a>
+        </div>
+      </div>
+    </nav>    
+ </header>
+ <main> <!--Formuluario de Log In//Boton NewAccount lleva al Home-->
+  <div class="containerForm">
+    <div class="row justify-content-center">
+        <div class="col-md-3 col-lg-3>            
+            <form class="recuadroForm" >
+              <h2>Log in</h2>
+                <div class="formItem">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="correo" placeholder="email@addres.com" required>
+                </div>
+                <div class="formItem">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Ingresa tu contraseña">
+                </div>
+                <div class="formItem">
+                  <a href="#" >Forgot password?</a>
+                </div>                
+                <div class="formItem d-grid gap-2">
+                <button type="submit" class="btn btn-primary">Log In</button>                  
+                </div>
+                <div class="form-check form-switch formItem">
+                  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                  <label class="form-check-label" for="flexSwitchCheckDefault">Remember me</label>
+                </div>               
+                <div class="formItem d-grid gap-2">
+                  <button type="submit" class="btn btn-outline-danger">New account</button>
+                </div>
+            </form>
+      </div>   
+  </div>
+</div>     
+ </main>
+ <footer class="text-center text-white" style="background-color:  rgb(95, 93, 93);">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section>
+        <!-- Facebook -->
+        <a
+          class="btn btn-link btn-floating"
+          href="#"
+          role="button">
+        <img src="../IMAGENES/icons/facebook .png" alt="facebook" class="iconRedes">
+        </a>
+        <!-- Instagram -->
+        <a
+          class="btn btn-link btn-floating "
+          href="#!"
+          role="button">
+          <img src="../IMAGENES/icons/instagram.png" alt="instagram" class="iconRedes">
+        </a>    
+        <!-- Twitter -->
+        <a
+          class="btn btn-link btn-floating"
+          href="#!"
+          role="button">
+          <img src="../IMAGENES/icons/twitter.png" alt="twitter" class="iconRedes">
+        </a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->    
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="background-color:  rgb(117, 114, 114);">
+     <p>Copyright © 2023 HP Slots Parts Powered by Dario Sorbille</p>
+    </div>
+    <!-- Copyright -->
+ </footer>  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script> <!--JS BootStrap-->
+</body>
+</html>
