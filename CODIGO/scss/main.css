@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap"); /*H2*/
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Faster+One&display=swap"); /*HP SLOTS*/
+@import url("https://fonts.googleapis.com/css2?family=Faster+One&display=swap");
+section .textDescrip {
+  margin-right: 50%;
+}
+section .textDescrip h2 {
+  font-family: "Russo One", sans-serif;
+  font-size: 55px;
+  margin-left: 5px;
+}
+section .textDescrip p {
+  padding-top: 50px;
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+section .textDescrip .frascosHp {
+  width: 70%;
+  position: relative;
+  margin-top: -14.5%;
+  left: 100%;
+  right: 50%;
+}
+section .textDescrip .boton {
+  padding: 10px 20px;
+  background-color: #e9fc02;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-bottom: 50px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 50px;
+}
+section .textDescrip .boton:hover { /*Efectos al pasar el cursor*/
+  transition: background-color 0.8s;
+  background-color: #cc7400;
+  text-decoration: none;
+}
+
+section .listadoProduc {
+  display: inline;
+  margin: 30px;
+  box-sizing: border-box;
+}
+section .listadoProduc .styleProduc {
+  width: 15%;
+  border-radius: 4%;
+  display: inline;
+  margin-left: 50%;
+}
+section .listadoProduc .styleProduc p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: inline;
+  margin-left: 50%;
+  font-size: 20px;
+}
+
+section #FAQ {
+  margin-top: 30px;
+  margin-bottom: 70px;
+  justify-content: center;
+}
+section #FAQ h3 {
+  font-family: "Russo One", sans-serif;
+  font-size: 55px;
+  text-align: center;
+  margin-right: -100%;
+}
+section #FAQ .listadoFaq {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  margin-left: 47%;
+  margin-right: 25%;
+  border: 1px;
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+}
+section #FAQ .listadoFaqItem {
+  margin: 15px;
+  margin-left: 0;
+  border: solid 1px;
+  padding: 9px;
+  background-color: yellow;
+}
+section #FAQ .listadoFaqItem .listadoFaqItem dt {
+  font-size: 35px;
+  font-weight: bold;
+}
+section #FAQ .listadoFaqItem .listadoFaqItem dd {
+  font-weight: bold;
+  opacity: 75%;
+}
+
+/*Menu Nav*/
+#header p {
+  font-size: x-large;
+  text-align: center;
+  background-color: #e9fc02;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-bottom: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  font-family: "Faster One", cursive;
+  color: black;
+  font-size: 60px;
+  margin-left: 25px;
+}
+
+.navbar {
+  background-color: rgb(95, 93, 93);
+  border-bottom: solid 1px;
+}
+
+.nav-link {
+  font-family: "Akaya Telivigala", cursive;
+}
+
+.iconLink {
+  width: 25px;
+  margin: 5px;
+}
+
+.footer p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.iconRedes {
+  width: 35px;
+  height: 35px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.videoYoutube {
+  display: flex;
+  justify-content: center;
+}
+
+.mapa {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bodyContac {
+  background-image: url("../../IMAGENES/fast.jpg");
+  background-size: auto;
+}
+
+.containerContact {
+  min-height: 45vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 50px 50px 50px;
+  margin: 80px;
+  display: flex;
+  justify-content: center;
+}
+.containerContact .textDescripContac {
+  color: rgb(106, 176, 238);
+  font-family: "Russo One", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 25px;
+}
+
+.containerForm {
+  min-height: 45vh;
+  margin: 80px;
+  background-color: rgb(95, 93, 93);
+}
+.containerForm .recuadroForm {
+  border: 2px solid rgba(5, 4, 3, 0.13);
+}
+.containerForm .formItem {
+  margin: 10px;
+}
+
+.listadoProduc {
+  margin: 30px;
+}
+
+.styleProduc {
+  width: 15%;
+  border-radius: 4%;
+  display: inline;
+  margin-left: 50%;
+}
+
+.listadoProduc p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: inline;
+  margin-left: 50%;
+  font-size: 20px;
+}
+
+.container__product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: scenter;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex-basis: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.column img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/*Reset / Normalize CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: rgb(95, 93, 93);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=main.css.map */

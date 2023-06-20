@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap'); /*H2*/
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap'); 
+
+section .textDescrip {
+    margin-right: 50%;
+    & h2{
+        font-family: 'Russo One', sans-serif;
+        font-size: 55px;
+        margin-left: 5px;
+    }
+    & p{
+        padding-top: 50px;
+        margin-left: 5px;
+       font-size: 20px;
+       font-weight: bold;
+    }
+    & .frascosHp{
+        width: 70%;
+        position: relative;    
+        margin-top: -14.5%;    
+        left: 100%;
+        right: 50%;        
+    }
+    & .boton{  
+        padding: 10px 20px;
+        background-color: #e9fc02;
+        color: #000000;    
+        font-weight: bold;
+        border-radius: 10px;
+        font-size: 16px;
+        margin-bottom: 50px;   
+        display: inline-block;
+        position: absolute;
+        margin-top: 50px;      
+    }
+    & .boton:hover{  /*Efectos al pasar el cursor*/
+        transition: background-color .8s;
+        background-color: #cc7400;
+        text-decoration: none;        
+    } 
+
+ }
+
+section .listadoProduc{
+    display: inline;    
+    margin: 30px;
+    box-sizing: border-box;
+    
+    & .styleProduc{
+        width: 15%;
+        border-radius: 4%;
+        display: inline;
+        margin-left: 50%;
+        & p {
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          display: inline;
+          margin-left: 50%;
+          font-size: 20px;
+        }
+    }
+}
+section #FAQ{
+    margin-top: 30px;
+    margin-bottom: 70px;
+    justify-content: center;
+    & h3{
+        font-family: 'Russo One', sans-serif;
+        font-size: 55px;
+        text-align: center;
+        margin-right: -100%;
+    }
+    & .listadoFaq{
+        display: flex;
+        justify-content: flex-start;
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 70px;
+        margin-left: 47%;
+        margin-right: 25%;
+        border:  1px;
+        font-family: 'Alumni Sans Pinstripe', sans-serif;
+    }
+    & .listadoFaqItem{
+        margin: 15px;
+        margin-left: 0;
+        border: solid 1px;
+        padding: 9px;
+        background-color: yellow ;
+        .listadoFaqItem dt{
+            font-size: 35px;
+            font-weight: bold;
+        }   
+        .listadoFaqItem dd{
+            font-weight: bold;
+            opacity: 75%;
+        }  
+    }
+}

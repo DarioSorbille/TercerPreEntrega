@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap'); /*HP SLOTS*/
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap'); /*Menu Nav*/
+#header{
+    & p{
+        font-size: x-large ;
+        text-align: center;
+        background-color: #e9fc02;
+        height: 40px ;
+        box-sizing: border-box;  
+        padding: 5px; 
+        margin-bottom: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    & .navbar{
+        background-color: rgb(95, 93, 93);
+        border-bottom: solid 1px;
+    }
+    & h1{
+        font-family: 'Faster One', cursive;
+        color: black;
+        font-size: 60px;  
+        margin-left: 25px;
+    }
+    & .nav-link{
+        font-family: 'Akaya Telivigala', cursive;    
+    }
+    & .iconLink{
+        width: 25px;   
+        margin: 5px; 
+    }
+ } 

@@ -1,0 +1,21 @@
+.bodyContac{
+    background-image: url("../../IMAGENES/fast.jpg");
+    background-size:auto;    
+}
+.containerContact{
+    min-height: 45vh;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: 50px 50px 50px;
+    margin: 80px ;
+    display: flex;
+    justify-content: center;
+
+    & .textDescripContac{    
+        color: rgb(106, 176, 238);    font-family: 'Russo One', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        padding: 25px;
+    }
+    
+}
